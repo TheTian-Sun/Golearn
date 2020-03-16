@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func hello() {
 	var b bool 
 	b = true
 	var s string
