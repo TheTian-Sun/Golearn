@@ -5,11 +5,6 @@ import (
 )
 
 func dataType() {
-	 a := 8
-	fmt.Println(a)
-
-}
-
-func main() {
-	hello()
+	a := 8
+	fmt.Printf("%d", a)
 }
