@@ -23,15 +23,11 @@ func array() {
 	for index, value := range city {
 		fmt.Println(index, value)
 	}
-   var data = [4]int{1,3,5,8}
-    number := 0
-   for _,value := range data{
-	number= number + value
-	fmt.Println(number)
-   }
+	var data = [4]int{1, 3, 5, 8}
+	number := 0
+	for _, value := range data {
+		number = number + value
+		fmt.Println(number)
+	}
 }
 
-func main() {
-	array()
-	
-}
