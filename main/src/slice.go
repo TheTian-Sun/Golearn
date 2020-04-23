@@ -18,4 +18,14 @@ func slice() {
 	fmt.Println(reflect.TypeOf(a))
 	fmt.Println(reflect.TypeOf(b))
 	fmt.Println(b[1], c)
+	var s = make([]string, 5)
+	s[1] = "a"
+	s[2] = "b"
+	s[3] = "c"
+	fmt.Println(s)
+	s = append(s, "new")
+	fmt.Println(s)
+	s = append(s[:1], s[1+1:]...)
+	fmt.Println(s)
+
 }
