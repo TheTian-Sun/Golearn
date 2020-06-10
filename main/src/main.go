@@ -13,4 +13,6 @@ func main() {
 	MapUsage()
 	defer fmt.Println("你好")
 	StructUsage()
+	MethodUsage()
+	InterfaceUsage()
 }
