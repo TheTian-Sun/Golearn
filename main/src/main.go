@@ -15,4 +15,5 @@ func main() {
 	StructUsage()
 	MethodUsage()
 	InterfaceUsage()
+	GoUsage()
 }
